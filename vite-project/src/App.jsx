@@ -12,6 +12,10 @@ import Card from "./compnents/Card.jsx";
 import Weather from "./compnents/Weather.jsx";
 import UserStatus from "./compnents/UserStatus.jsx";
 import Greetings from "./compnents/Greetings.jsx";
+import StyleCard from "./compnents/StyleCard.jsx";
+import ProfileCard from "./compnents/ProfileCard.jsx";
+import IconComponent from "./compnents/IconComponent.jsx";
+
 function App() {
   return (
     <div>
@@ -27,9 +31,13 @@ function App() {
         <Weather temp = {18}/> */}
       {/* <UserStatus loggedIn={true} IsAdmin={true} /> */}
       {/* <UserStatus loggedIn={true} IsAdmin={false} /> */}
-        <Greetings timeOfDay="morning" />
+        {/* <Greetings timeOfDay="morning" />
       <Greetings timeOfDay="afternoon" />
-      <Greetings />
+      <Greetings /> */}
+      <StyleCard/>
+      <ProfileCard/>
+      <IconComponent/>
+
     </div>
   );
 }
