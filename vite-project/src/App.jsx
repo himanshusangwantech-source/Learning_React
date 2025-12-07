@@ -16,6 +16,7 @@ import StyleCard from "./compnents/StyleCard.jsx";
 import ProfileCard from "./compnents/ProfileCard.jsx";
 import IconComponent from "./compnents/IconComponent.jsx";
 import IncDec from "./compnents/IncDec.jsx";
+import Friends from "./compnents/Friends.jsx";
 
 function App() {
   return (
@@ -38,7 +39,8 @@ function App() {
       {/* <StyleCard/>
       <ProfileCard/>
       <IconComponent/> */}
-      <IncDec/>
+      {/* <IncDec/> */}
+      <Friends/>
 
     </div>
   );
