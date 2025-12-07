@@ -17,6 +17,7 @@ import ProfileCard from "./compnents/ProfileCard.jsx";
 import IconComponent from "./compnents/IconComponent.jsx";
 import IncDec from "./compnents/IncDec.jsx";
 import Friends from "./compnents/Friends.jsx";
+import ChangeRating from "./compnents/ChangeRating.jsx";
 
 function App() {
   return (
@@ -40,7 +41,8 @@ function App() {
       <ProfileCard/>
       <IconComponent/> */}
       {/* <IncDec/> */}
-      <Friends/>
+      {/* <Friends/> */}
+      <ChangeRating/>
 
     </div>
   );
