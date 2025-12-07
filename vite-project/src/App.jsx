@@ -15,6 +15,7 @@ import Greetings from "./compnents/Greetings.jsx";
 import StyleCard from "./compnents/StyleCard.jsx";
 import ProfileCard from "./compnents/ProfileCard.jsx";
 import IconComponent from "./compnents/IconComponent.jsx";
+import IncDec from "./compnents/IncDec.jsx";
 
 function App() {
   return (
@@ -34,9 +35,10 @@ function App() {
         {/* <Greetings timeOfDay="morning" />
       <Greetings timeOfDay="afternoon" />
       <Greetings /> */}
-      <StyleCard/>
+      {/* <StyleCard/>
       <ProfileCard/>
-      <IconComponent/>
+      <IconComponent/> */}
+      <IncDec/>
 
     </div>
   );
